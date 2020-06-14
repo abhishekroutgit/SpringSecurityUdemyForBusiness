@@ -1,4 +1,4 @@
-package com.abhishekRout;
+package com.abhishekRout.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,4 +9,9 @@ public class DashboardController {
   public String getDashboard () {
     return "dashboard";
   }
+  
+  /*@GetMapping("/login")
+  public String getLogin() {
+	  return "login";
+  }*/
 }
